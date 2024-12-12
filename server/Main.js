@@ -4,13 +4,11 @@ import https from 'node:https';
 import fs from 'fs';
 import logger from './lib/logger.js';
 import middleware from './lib/middleware/index.js';
-//import assetsRouter from './assetsRouter.js';
+//import assetsRouter from './lib/assetsRouter.js';
 import { Db } from './lib/Db.js';
 import { Router } from './routes/Router.js';
 import websocketServer from './lib/websocket/WS.js';
-//import { TwitchBot } from './lib/twitch/Bot.js';
 //import CFG from './lib/settings.js';
-//import { OBSWebSocket } from './websocket/obs/OBSWebSocket.js';
 
 
 class MainSingleton {

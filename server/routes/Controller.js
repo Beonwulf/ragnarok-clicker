@@ -65,8 +65,7 @@ export class Controller {
 
 
 	async init() {
-		this.#data.manifest = await parseManifest();
-		
+		this.#data.manifest = await parseManifest();	
 	}
 
 
