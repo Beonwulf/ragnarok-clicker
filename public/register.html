@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registrieren | Ragnarök Clicker</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="background"></div>
+	<main class="form-container">
+		<h2>Registrieren</h2>
+		<form action="/register" method="POST">
+			<label for="username">Benutzername:</label>
+			<input type="text" id="username" name="username" required>
+			
+			<label for="email">E-Mail:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="password">Passwort:</label>
+			<input type="password" id="password" name="password" required>
+			
+			<label for="confirm-password">Passwort bestätigen:</label>
+			<input type="password" id="confirm-password" name="confirm-password" required>
+			
+			<button type="submit" class="button">Registrieren</button>
+		</form>
+	</main>
+</body>
+</html>

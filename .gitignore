@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Umgebungsdateien
+.env
+
+# System-Dateien
+.DS_Store
+Thumbs.db
+
+#Fonts-Ordner
+public/assets/fonts
+
+# Build-Ordner
+dist/

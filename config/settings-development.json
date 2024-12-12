@@ -1,0 +1,15 @@
+{
+	"jwtsecret": "std9s89xpmm9xwoyz9javmaq5iwaos",
+	"database":{
+		"pg":{}
+	},
+	"smtp":{},
+	"support":{
+		"email":"",
+		"name":""
+	},
+	"urls":{
+		"api":"",
+		"app":""
+	}
+}
