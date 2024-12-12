@@ -83,3 +83,24 @@ ragnarok-clicker/
 ├── README.md                  # Dokumentation des Projekts
 └── vite.config.js             # Vite-Konfiguration
 ```
+
+.env
+```
+# Datenbankverbindung
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=ragnarok_db
+DB_USER=ragnarok_user
+DB_PASSWORD=dein_sicheres_passwort
+
+# JSON Web Token Secret
+JWT_SECRET=mein_geheimer_jwt_key
+
+# Weitere Umgebungsvariablen
+NODE_ENV=development
+PORT=3000
+SECRET_KEY=geheimniskey
+
+# API-Schlüssel (falls vorhanden)
+API_KEY=dein_api_schluessel
+```
