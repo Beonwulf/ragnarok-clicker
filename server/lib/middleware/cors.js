@@ -1,9 +1,9 @@
 import cors from 'cors';
-import settings from '../lib/settings.js';
+import settings from '../settings.js';
 
 
 const urlsAllowedToAccess = Object.entries(settings.urls || {}).map(([key, value]) => value) || [];
-//urlsAllowedToAccess.push('https://clips.twitch.tv');
+//urlsAllowedToAccess.push('https://www.example.com');
 
 
 export const configuration = {

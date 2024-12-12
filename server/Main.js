@@ -3,7 +3,7 @@ import * as path from 'node:path';
 import https from 'node:https';
 import fs from 'fs';
 import logger from './lib/logger.js';
-import middleware from './middleware/index.js';
+import middleware from './lib/middleware/index.js';
 //import assetsRouter from './assetsRouter.js';
 import { Db } from './lib/Db.js';
 import { Router } from './routes/Router.js';

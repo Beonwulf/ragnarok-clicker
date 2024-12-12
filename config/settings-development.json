@@ -1,5 +1,4 @@
 {
-	"jwtsecret": "std9s89xpmm9xwoyz9javmaq5iwaos",
 	"database":{
 		"pg":{}
 	},
